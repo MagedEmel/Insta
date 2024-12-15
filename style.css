@@ -1,0 +1,172 @@
+body {
+  background-color: black;
+}
+.po {
+  left: 20%;
+}
+.flex-row li {
+  margin: 10px;
+  text-align: center;
+}
+.gradient-border {
+  width: fit-content;
+  padding: 3px;
+  background: linear-gradient(to right, red, yellow, purple);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.image-container {
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 75px;
+  height: 65px;
+}
+.image-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+.image-container img:hover,
+.gradient-border:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.card {
+  left: 100%;
+}
+.imges {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+}
+.p {
+  font-size: 50px;
+  position: relative;
+  bottom: 20px;
+  color: #7d7c7c;
+}
+.con {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+}
+.s {
+  width: 150%;
+  height: 100%;
+  border-radius: 10px;
+}
+.con2 {
+  left: 60%;
+}
+.par {
+  display: inline;
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+.par2 {
+  margin-left: 70px;
+  margin-top: 0px;
+}
+.im {
+  position: relative;
+  top: 17px;
+}
+.co {
+  margin-left: 75%;
+}
+.follow {
+  display: inline-block;
+  width: 49%;
+  position: relative;
+  top: 20px;
+  text-align: end;
+}
+.follow:hover {
+  cursor: pointer;
+}
+.dropdown {
+  text-decoration: none;
+}
+.dropdown-item:hover {
+  background-color: #7d7c7c;
+}
+.smallimg {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.heart {
+  cursor: pointer;
+  color: white;
+}
+.heart.active {
+  color: red;
+}
+
+/* start profile page */
+
+.img {
+  border-radius: 50%;
+  width: 15%;
+  height: 10%;
+}
+.highimg {
+  width: 70px;
+  height: 65px;
+  border-radius: 50%;
+}
+.highlight {
+  margin: 10px auto;
+  width: 65%;
+  position: relative;
+  left: 50px;
+}
+.Postes {
+  position: relative;
+  left: 180px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.image-con {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 2px;
+}
+.image-con img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.image-con:hover img {
+  opacity: 0.9;
+}
+.image-con:hover .overlay {
+  opacity: 1;
+}
+.icons {
+  display: flex;
+  gap: 20px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+}
